@@ -36,3 +36,10 @@ waterButton.addEventListener('click', () => {
 earthButton.addEventListener('click', () => {
   imageContainer.style.border = '6px groove green';
 });
+
+// seleciona image do template e mostra seu preview
+const memeTemplateClick = document.getElementById('meme-template');
+memeTemplateClick.addEventListener('click', (e) => {
+  const setImg = document.getElementById('meme-image');
+  setImg.src = e.target.src;
+});
