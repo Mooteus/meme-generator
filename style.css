@@ -25,3 +25,14 @@ https://pt.stackoverflow.com/questions/243301/como-fazer-um-contorno-em-texto-vi
   width: 500px;
   height: 500px;
 }
+
+#meme-template {
+  align-items: center;
+  width: 420px;
+}
+
+#meme-template img {
+  border: 1px solid red;
+  width: 100px;
+  height: 100px;
+}
