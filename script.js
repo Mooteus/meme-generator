@@ -19,3 +19,20 @@ const memeImageInput = document.getElementById('meme-insert');
 memeImageInput.addEventListener('change', (e) => {
   previewImg(e);
 });
+
+const fireButton = document.getElementById('fire');
+const waterButton = document.getElementById('water');
+const earthButton = document.getElementById('earth');
+const imageContainer = document.getElementById('meme-image-container');
+
+fireButton.addEventListener('click', () => {
+  imageContainer.style.border = '3px dashed red';
+});
+
+waterButton.addEventListener('click', () => {
+  imageContainer.style.border = '5px double blue';
+});
+
+earthButton.addEventListener('click', () => {
+  imageContainer.style.border = '6px groove green';
+});
