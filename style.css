@@ -18,7 +18,7 @@ https://pt.stackoverflow.com/questions/243301/como-fazer-um-contorno-em-texto-vi
   -webkit-text-stroke-color: black;
 }
 
-#preview {
+#meme-image {
   position: relative;
   width: 500px;
   height: 500px;

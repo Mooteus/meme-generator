@@ -11,7 +11,7 @@ memeTextInput.addEventListener('input', () => {
 function previewImg(e) {
   const file = e.target.files;
   const fileImg = file[0];
-  const setImg = document.getElementById('preview');
+  const setImg = document.getElementById('meme-image');
   setImg.src = URL.createObjectURL(fileImg);
 }
 
