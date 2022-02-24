@@ -36,3 +36,15 @@ https://pt.stackoverflow.com/questions/243301/como-fazer-um-contorno-em-texto-vi
   width: 100px;
   height: 100px;
 }
+
+#fire {
+  background-color: red;
+}
+
+#water {
+  background-color: blue;
+}
+
+#earth {
+  background-color: green;
+}
