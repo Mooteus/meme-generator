@@ -1,4 +1,5 @@
 #meme-image-container {
+  background-color: red;
   width: 500px;
   height: 500px;
 }
@@ -7,9 +8,18 @@
 https://pt.stackoverflow.com/questions/243301/como-fazer-um-contorno-em-texto-via-css */
 
 #meme-text {
-  color: white;
-  font-family: comic sans, sans-serif;
+  position: absolute;
+  width: 500px;
+  top: 400px;
+  color: yellow;
+  font-family: Comic Sans MS, sans-serif;
   font-size: 50px;
   -webkit-text-stroke: 1px;
   -webkit-text-stroke-color: black;
+}
+
+#preview {
+  position: relative;
+  width: 500px;
+  height: 500px;
 }
