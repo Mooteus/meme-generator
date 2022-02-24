@@ -12,9 +12,10 @@ https://pt.stackoverflow.com/questions/243301/como-fazer-um-contorno-em-texto-vi
   position: absolute;
   width: 500px;
   top: 400px;
-  color: yellow;
+  color: white;
   font-family: Comic Sans MS, sans-serif;
-  font-size: 50px;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px black;
   -webkit-text-stroke: 1px;
   -webkit-text-stroke-color: black;
 }
