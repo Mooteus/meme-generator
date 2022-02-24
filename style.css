@@ -1,10 +1,6 @@
 #meme-image-container {
-  display: flex;
-  flex-wrap: wrap;
   width: 500px;
   height: 500px;
-  background-repeat: no-repeat;
-  background-size: 500px 500px;
 }
 
 /* forum usado como base
